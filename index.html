@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Front-End Developer | Adarsh Rai</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.jpeg">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+
+  </head>
+  <body>
+    <!--Scroll to top button starts--->
+    <div class="scroll-top">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7l4-4m0 0l4 4m-4-4v18" />
+      </svg>
+    </div>
+    <!---Scroll to top button ends---->
+    <!-- page loader -->
+    <div class="page-loader">
+      <div class="page-loader-inner">
+        <div class="circle">
+          
+        </div>
+        Loading
+      </div>
+    </div>
+    <!-------- bg bg-animation-effect -->
+    <div class="bg-animation-effect"></div>
+
+    <!-- About session starts -->
+    <nav class="navbar">
+      <h2 href="#">Adarsh</h2>
+      <a href="resume.pdf" target="_blank" class="btn"
+        >Resume
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+    </nav>
+    <section class="about-section">
+      <div class="container">
+        <div class="row min-vh-100">
+          <div class="about-content">
+            <img src="img/profile-pic2.jpeg" alt="profile-pic" />
+            <h1>Hi, My name is Adarsh Rai.</h1>
+            <p>
+              I'm a <span>frontent developer</span> in living Mumbai, India. I
+              make web application using
+              <span>html</span>,<span>css</span>,<span>javascript</span> and
+              <span>bootstrap</span>. Check out my latest work on the
+              <a href="#">portfolio page</a>.
+            </p>
+            <h2>skills</h2>
+            <div class="skills">
+              <div class="skill-item">html</div>
+              <div class="skill-item">css</div>
+              <div class="skill-item">javascript</div>
+              <div class="skill-item">bootstrap</div>
+              <div class="skill-item">jquery</div>
+              <div class="skill-item">React Js</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About session ends -->
+
+    <!-- portfolio section starts -->
+    <section class="portfolio-section sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Recent works</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-filter">
+            <button
+              type="button"
+              title="Show All Works"
+              class="portfolio-filter-btn active"
+              data-filter="all"
+            >
+              all
+            </button>
+            <button
+              type="button"
+              title="Filter by Front-End"
+              class="portfolio-filter-btn"
+              data-filter="front-end"
+            >
+              front-end
+            </button>
+            <button
+              type="button"
+              title="Filter by React-JS"
+              class="portfolio-filter-btn"
+              data-filter="react-js"
+            >
+              React-JS
+            </button>
+            <button
+              type="button"
+              title="Filter by Back-End"
+              class="portfolio-filter-btn"
+              data-filter="back-end"
+            >
+              back-end
+            </button>
+            <button
+              type="button"
+              title="Filter by bootstrap"
+              class="portfolio-filter-btn"
+              data-filter="challenges"
+            >
+              Challenges
+            </button>
+          </div>
+          <div class="filter-status">
+            <p></p>
+          </div>
+        </div>
+        <div class="row protfolio-items">
+          <div class="portfolio-item" data-category="front-end,react-js">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/18.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">React-Movie App</h3>
+           
+            <div class="portfolio-item-details">
+              <div class="description">
+               
+                <p>
+                
+                 <h3> Key Features :</h3>  <br>
+                 ✅ App setup <br>
+                 ✅  API setup at OMDB <br>
+                 ✅  UI creation using styled-components <br>
+                 ✅  Debouncing implementation <br>
+                 ✅  Component based development<br>
+                 ✅  Responsive UI using Flex Concept<br>
+                 ✅  API integration with axios<br>  <br>
+                 ✔  	Fetch live APIs from OMDB using Axios <br>
+                 ✔	Simple single web page application made with create-react-app to experiment with react routing v4 and Styled-Components an UI design language and React-based implementation.<br>
+                 ✔	The UI is mobile as well as desktop responsive.<br>
+                 ✔	This App has a basic functionality of searching Movies app and TV Series and detail info about the Movie's and TV Series <br>
+                 <h3>Libraries used:</h3>
+                 styled-components<br>
+                 axios<br>
+                 react-scripts<br>
+                </p>
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>28 March 2022</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Vanilla Javascript,React-JS, Styled Components, OMDB API, Axios </span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://react-movie-app-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a> 
+              <a href="https://github.com/AdarshRai0/react-movie-app" target="_blank" class="btn btn1">View Code</a> 
+  
+               
+  
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/17.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">CryptoCurrency-Tracker  App</h3>
+           
+            <div class="portfolio-item-details">
+              <div class="description">
+               
+                <p>
+                
+                 <h3> Key Features :</h3> 
+                  
+                 ✔	Web App to track the live data like Price, Volume, Change etc for several Cryptocurrencies.
+               
+                 
+                 
+                 
+                
+                 
+                 <br>
+                 ✔ 	Integrated google analytics to track the live traffic data. <br>
+                 ✔  	Fetch live APIs from cryptonators using Axios <br>
+                 ✔	Auto price and other data update without refreshing in every 30 seconds<br>
+                 ✔	The UI is mobile as well as desktop responsive.<br>
+                 ✔	Integrated Live chat from a third party application<br>
+                 ✔	 	Made a function to convert UNIX time to DayTime<br>
+                </p>
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>03 Feb 2022</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Vanilla Javascript, Bootstrap 5</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://crypto-tracker-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a> 
+              <a href="https://github.com/AdarshRai0/Crypto-Tracker" target="_blank" class="btn btn1">View Code</a> 
+  
+               
+  
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/15.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title"> Mapty-App</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 
+Mapty is one of the projects done as part of the course - The Complete JavaScript Course 2021: From Zero to Expert! by Jonas Schmedtmann.
+
+Its structure is built with OOP using classes and objects.This is not a Mobile Friendly App!! <br>
+
+<h3>Features</h3>
+✔ Displaying Map using Leaflet library <br>
+
+✔ Position automatically obtained by the browser using Geolocation API <br>
+
+✔ Create or remove workouts <br>
+
+✔ Show workouts on map <br>
+
+✔ Move to marker when workout is clicked <br>
+
+✔ Saving workouts to localstorage <br>  <br>
+
+<h3>Independently developed functionalities:</h3>
+
+✔ Ability to delete a workout (Working on it!!!) <br>
+✔ Ability to delete all workouts (Done!!!) <br>  <br>
+<h3>Future functionalities:</h3>
+
+🔶 Ability to edit a workout <br>
+🔶 Create 'Add Workout' button to better improve the App`s UX and UI. <br>
+🔶 Ability to sort workouts by a certain field (e.g. distance) <br>
+🔶 Re-build Running & Cycling objects exiting local storage <br>
+🔶 More realistic error and confirmation messages <br>
+🔶 Ability to position the map to show all workouts [very hard] <br>
+🔶 Ability to draw lines and shapes instead of just points [very hard] <br>
+🔶 Geocode location from coordinates ("Run in Faro, Portugal") [ASYNC JS] <br>
+🔶 Display weather data for workout time and place [ASYNC JS] <br>  <br>
+                 
+                
+              
+<h3>Acknowledgments</h3>
+The Complete JavaScript Course 2021: From Zero to Expert! by Jonas Schmedtmann
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>26 Dec 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript, API </span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://mapty-app-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/Mapty" target="_blank" class="btn btn1">View Code</a> 
+
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/14.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">BANKIST | When Banking meets Minimalist💸</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Bankist is a minimal website for a bank. A minimal design with responsiveness and soothing design along with functionality to sign into account for further activities. Simply click on login and user credential provided on screen to use bankist web app. In the future the functionality ro create account from website is going to be added.
+                 <h3> Features:</h3>
+✔ Modal windows <br>
+
+
+✔ Tab functionality <br>
+
+✔ Navigation fade animations <br>
+
+✔ Sticky navigation <br>
+
+✔ Revealing sections on scroll <br>
+
+✔ Lazy images loading <br>
+
+✔ Slider functionality <br>
+<h3>Usage</h3>
+1.Works as a landing page for the bank. <br>
+
+2.Users can login to account to perform banking transaction.
+                 
+              
+<h3>Acknowledgments</h3>
+The Complete JavaScript Course 2021: From Zero to Expert! by Jonas Schmedtmann
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>22 Dec 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://bankist-website-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/Bankist--When-Banking-meets-Minimalist" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/13.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">BANKIST 💸</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 
+                 Built this Application. To learn Types Of Array In Javascript.
+               
+Bankist is a fictitious and minimalistic online banking application that allows the user to:<br> <br>
+
+✔ Log in with a username and password <br>
+✔ View and sort their monetary movements<br>
+✔ Transfer money to another account<br>
+✔ Request a loan from the bank<br>
+✔ Delete their account<br> <br>
+<h3> Log in credentials:</h3>
+
+username: ar | password: 1111 <br>
+username: mr | password 1111 <br> <br>
+<h3>Bugs</h3> 
+That still need to be fixed: <br> <br>
+
+<h5>Sorting Btn❗❗❗</h5> <br> 
+<h3>Acknowledgments</h3>
+The Complete JavaScript Course 2021: From Zero to Expert! by Jonas Schmedtmann
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>20 Dec 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://bankist-app-adarshrai.netlify.app/" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/BANKIST-APP" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/1.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Omnifood website</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+              
+                  Builded a Responsive Real-World Websites with HTML and CSS.
+                  Learned modern HTML5, CSS3 and web design by building a stunning website for your portfolio! Includes flexbox and CSS Grid. project mentor-Jonas Schmedtmann!!!
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>21 oct 2021</span></p>
+                <p>Technologies Used - <span>Html, Css, JQuery</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://omnifood-website-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/omnifood-responsive-website" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/2.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">personal portfolio website</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  This Website is fully Responsive!!!. Loved to built this Front-end project and solved many challenges/bugs😂
+                  A good portfolio website will help highlight your best features even if you have minimal experience. It’s sort of an online business card or CV that will help you find partnerships, show off your work, and even land your first job.🙌❤️
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>15 oct 2021</span></p>
+                <p>Technologies Used - <span>HTML 5, CSS3, Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+
+                <p>
+                <a href="https://portfolio-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+
+                <a href="https://github.com/AdarshRai0/Personal-Portfolio" target="_blank" class="btn btn1">View Code</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/3.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Restaurant website</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 This is a Food Ordering Restaurant Website🍕🥙!! I Made this Website to learn how Flex-Box Works. By This Project I had learned how Flex-Box Works In Website.This Website is fully Responsive!!! and also added a integrated Hamburger-Menu🍔 in it.
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>24 Oct 2021</span></p>
+                <p>Technologies Used - <span>Html5, css3</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://restraunt-website-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/FOOD-PROJECT-USING-FLEXBOX" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/4.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Travel Website</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  This project is made using only html and css. I just wanted to practice the float tag so i build this using float property only🏄‍♂️. no flexbox or grid property is used. Learned so much while building this project. this is a responsive website.🤷‍♂️
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>26 Oct 2021</span></p>
+                <p>Technologies Used - <span>Html, Css</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href=" https://world-travel-website-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/travel-project" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/5.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">PIG - GAME</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Pig-game(ludo) is a classic board game played between friends and family. Play the dice game of kings! Recall your childhood!
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>10 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html, Css ,Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://pig-game-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/PIG-GAME" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/6.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Guess The Number Game</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Loved to build this game by using fundaments of js. game is simple you have to guess the number between 1 to 20. If the number is same you guess then you win.. But the fun and the challenging part is the score you get whiling guessing the right number!!!!
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>12 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html, Css , javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://guess-my-number-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/Guess-My-Number" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/7.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Order summary card</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  <h2> Front-End Mentor.io-5 😎🙌</h2>
+
+                  Thanks for checking out this front-end coding challenge. <br>
+
+                  Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+                  
+                  To do this challenge, you need a basic understanding of HTML and CSS. <br>
+                  
+                 <h2> The challenge:</h2> 
+                  Your challenge is to build out this order summary card component and get it looking as close to the design as possible. <br>
+                  
+                  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+                  
+                  Your users should be able to:
+                  
+                  See hover states for interactive elements
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>14 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://order-summary-component-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/Frontend-Callenge-newbie-01-" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/8.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title"> NFT Preview Card Component</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  <h2> Front-End Mentor.io-5 😎🙌</h2>
+                 
+                  Thanks for checking out this front-end coding challenge.👋 <br>
+                  
+                  Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+                  
+                  To do this challenge, you need a basic understanding of HTML and CSS.
+                  
+                 <h2> The challenge:</h2>
+                  Your challenge is to build out this preview card component and get it looking as close to the design as possible. <br>
+                  
+                  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. <br>
+                  
+                  <h3>Your users should be able to:</h3>
+                  
+                  1. View the optimal layout depending on their device's screen size <br>
+                 2. See hover states for interactive elements
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>12 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html, Css , javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://nft-preview-card-component-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/nft-preview-card-component-main" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/9.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Stats preview card component</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 <h2> Front-End Mentor.io-5 😎🙌</h2>
+
+                  Thanks for checking out this front-end coding challenge.🙌
+
+                  Frontend Mentor challenges help you improve your coding skills by building realistic projects. <br>
+                  
+                  To do this challenge, you need a basic understanding of HTML and CSS.❤️
+                  
+                  <h2>The challenge:</h2>
+                  Your challenge is to build out this card component and get it looking as close to the design as possible. <br>
+                  
+                  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+                  
+                  <h3>Your users should be able to:</h3>
+                  
+                  View the optimal layout depending on their device's screen size
+                 
+                </p>
+              </div>
+              <div class="general-info">
+                <p>Created - <span>13 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html5, css3</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://stats-preview-card-component-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/stats-preview-card-component-main" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/10.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">3-column-preview-card-component</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 <h2> Front-End Mentor.io-5 😎🙌</h2>
+
+                  Thanks for checking out this front-end coding challenge.🙌
+
+                  Frontend Mentor challenges help you improve your coding skills by building realistic projects. <br>
+                  
+                  To do this challenge, you need a basic understanding of HTML and CSS.❤️
+                  
+                  <h2>The challenge:</h2>
+                  Your challenge is to build out this 3-column preview card component and get it looking as close to the design as possible.
+
+                  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. <br>
+                  
+                  <h3>Your users should be able to:</h3>
+                  
+                 1.  View the optimal layout depending on their device's screen size <br>
+                2.  See hover states for interactive elements
+              </div>
+              <div class="general-info">
+                <p>Created - <span>13 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://3-column-preview-card-component-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/3-column-preview-card-component" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/11.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">Todo List</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  You can use a To-do list✔ in your home and personal life, or in the workplace.💻 Having a list of everything📑 you need to do written down in one place means you shouldn't forget anything important.👍
+                </p>
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>17 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://todo-list-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/Todo-List" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/12.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">FAQ accordion card</h3>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                 <h2> Front-End Mentor.io-5 😎🙌</h2>
+                   Challenge is to build out this FAQ accordion card and get it looking as close to the design as possible. <br>
+
+                  You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+                  
+                 <h3> Your users should be able to:</h3> 
+                  
+                 ✔ View the optimal layout for the component depending on their device's screen size <br>
+                 ✔ See hover states for all interactive elements on the page <br>
+                 ✔ Hide/Show the answer to a question when the question is clicked
+                </p>
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>17 Nov 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://faq-accordion-card-main-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a>
+                <a href="https://github.com/AdarshRai0/faq-accordion-card-main" target="_blank" class="btn btn1">View Code</a>
+              </div>
+            </div>
+          </div>
+      
+      
+         
+          <div class="portfolio-item" data-category="front-end,challenges">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/16.png" alt="thumbnail" />
+              <button type="button" class="btn more-info-btn">More Info</button>
+            </div>
+            <h3 class="portfolio-item-title">calculator-app</h3>
+           
+            <div class="portfolio-item-details">
+              <div class="description">
+               
+                <p>
+                 <h2> Front-End Mentor.io-5 😎🙌</h2>
+                 Your challenge is to build out this calculator app and get it looking as close to the design as possible.
+  
+                 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go. <br>
+                  
+                 <h3> Your users should be able to:</h3> 
+                  
+                 ✔ See the size of the elements adjust based on their device's screen size<br>
+                 ✔ Perform mathematical operations like addition, subtraction, multiplication, and division <br>
+                 ✔ Adjust the color theme based on their preference <br>
+                 ✔ Bonus: Have their initial theme preference checked using prefers-color-scheme and have any additional changes saved in the browser
+                </p>
+                 
+              </div>
+              <div class="general-info">
+                <p>Created - <span>28 Dec 2021</span></p>
+                <p>Technologies Used - <span>Html5 , Css3 , Javascript</span></p>
+                <p>Role - <span>Front-End</span></p>
+                <a href="https://calculator-app-adarshrai.netlify.app" target="_blank" class="btn btn1">Live Demo</a> 
+              <a href="https://github.com/AdarshRai0/calculator-app" target="_blank" class="btn btn1">View Code</a> 
+  
+               
+  
+              </div>
+            </div>
+          </div>
+      
+        </div>
+        <!-- <button class="btn1">Load More</button> -->
+      </div>
+    </section>
+
+    <!-- portfolio section ends -->
+    <!-- portfolio item details popup start-->
+
+    <div class="portfolio-popup">
+      <div class="pp-overlay"></div>
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <h2 class="pp-counter"></h2>
+            <button
+              type="button"
+              title="close"
+              class="close-btn pp-close-btn"
+            ></button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/7.jpg" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+          <div class="pp-footer">
+            <div class="pp-footer-left hidden">
+              <button type="button" title="Prev Work" class="btn pp-prev-btn">
+                <i class="fas fa-arrow-left"></i>
+              </button>
+              <h3></h3>
+              <img src="img/portfolio/1.jpg" alt="prev work thumbnail" />
+            </div>
+            <div class="pp-footer-right hidden">
+              <button type="button" title="Next Work" class="btn pp-next-btn">
+                <i class="fas fa-arrow-right"></i>
+              </button>
+              <h3></h3>
+              <img src="img/portfolio/2.jpg" alt="next work thumbnail" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio item details popup end-->
+    <footer>
+      <h1 class="">Let's Connect <span>would love to have chat!</span></h1>
+      <div class="contact-info-item">
+        <p class="social-links">
+          <a href="https://www.facebook.com/adarsh.rai.50951/"target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/adarshrai00" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/hustlersmindsets_/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/AdarshRai0" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/adarsh-rai-0" target="_blank"> <i class="fab fa-linkedin"></i></a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- <script src="js/script.js"></script> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z7MWN19G8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0Z7MWN19G8');
+</script>
+  </body>
+</html>
