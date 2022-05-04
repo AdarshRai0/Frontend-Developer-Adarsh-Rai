@@ -851,13 +851,11 @@ footer h1 span {
     column-gap: 2rem;
   }
   #progress {
-   
     height: 50px;
     width: 50px;
   }
   #progress-value {
-   
-    font-size: 25px;
-    
+    font-size: 22px;
+    align-items: center;
   }
 }
