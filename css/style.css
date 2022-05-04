@@ -141,33 +141,31 @@ button {
 }
 
 /* scroll Top/Up Button */
-.scroll-top {
-  z-index: 100;
-  width: 50px;
-  background-color: var(--main-color);
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  cursor: pointer;
-  border-radius: 50px;
-  box-shadow: 0px 0px 20px rgba(71, 40, 182, 0.226);
-  /* hover effect default */
-  transform: scale(0.9);
-  transition: 0.3s ease-in-out transform;
-  /* for centering the icon */
-  /* display: flex; */
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.scroll-top svg {
-  width: 70%;
-  height: 50px;
-  /* font-weight: 700; */
-  color: black;
-  pointer-events: none;
-}
 
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 60px;
+  width: 60px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: #001a2e;
+}
 /*=============== SKILLS ===============*/
 .skills {
   margin-top: 4rem;
@@ -851,5 +849,15 @@ footer h1 span {
     grid-template-columns: repeat(1, 280px);
     justify-content: center;
     column-gap: 2rem;
+  }
+  #progress {
+   
+    height: 50px;
+    width: 50px;
+  }
+  #progress-value {
+   
+    font-size: 25px;
+    
   }
 }
