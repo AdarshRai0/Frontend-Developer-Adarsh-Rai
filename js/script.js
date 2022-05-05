@@ -166,5 +166,5 @@ ScrollReveal().reveal(`.profile-pic`, { delay: 500 });
 ScrollReveal().reveal(`.profile__name`, { delay: 550 });
 ScrollReveal().reveal(`.portfolio-filter`, { delay: 650 });
 ScrollReveal().reveal(`.skills__data`, { delay: 600 });
-ScrollReveal().reveal(`.skills__content`, { delay: 700 });
-ScrollReveal().reveal(`.portfolio-item`, { interval: 100, delay: 700 });
+ScrollReveal().reveal(`.skills__content`, { delay: 670 });
+ScrollReveal().reveal(`.portfolio-item`, { interval: 100, delay: 500 });
