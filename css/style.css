@@ -3,8 +3,8 @@
 /* variables */
 :root {
   --main-color: #e98b2c;
-  --dark: #1b1b22;
-  --dark-light: #32323a;
+  --dark: #0b0b0c;
+  --dark-light: #28282c;
   --white: #fff;
   --white-light: #c8c8c8;
 }
@@ -317,7 +317,7 @@ button {
 .page-loader .circle {
   height: 40px;
   width: 40px;
-  border: 2px solid var(--white-light);
+  border: 2px solid var(--main-color);
   border-right-color: transparent;
   border-radius: 50%;
   margin-right: 15px;
@@ -468,6 +468,7 @@ button {
   margin: 0 15px 30px;
   cursor: pointer;
   display: none;
+ 
 }
 
 .portfolio-item.show {
@@ -476,6 +477,10 @@ button {
 
 .portfolio-item img {
   width: 100%;
+  border-radius: 5px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 }
 .portfolio-item-thumbnail {
   position: relative;
@@ -731,6 +736,23 @@ footer h1 span {
   margin-right: 5px;
   color: var(--white);
 }
+
+.fa-facebook-f:hover{
+  color:rgb(1, 162, 255) !important;
+}
+.fa-twitter:hover{
+  color:rgb(0, 225, 255) !important;
+}
+.fa-instagram:hover{
+  color:red !important;
+}
+.fa-github:hover{
+  color:rgb(247, 0, 255) !important;
+}
+.fa-linkedin:hover{
+  color:rgb(4, 83, 255) !important;
+}
+
 @media (max-width: 991px) {
   .portfolio-item {
     width: calc(50% - 30px);
