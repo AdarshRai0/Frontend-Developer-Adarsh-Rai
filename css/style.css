@@ -365,9 +365,10 @@ button {
 }
 .about-content img {
   max-width: 200px;
-  border: 5px solid var(--dark-light);
+  border: 3px solid var(--dark-light);
   border-radius: 50%;
   margin: 0 0 15px;
+  
 }
 .about-content h1 {
   font-size: 38px;
